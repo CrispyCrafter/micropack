@@ -2,3 +2,6 @@
 
 ###
  Lightweight JSON serialisation and diff-patching tool for bandwitdth constained applications
+
+
+![image](https://user-images.githubusercontent.com/29259177/203044797-0fde478d-6eea-435a-86db-f16de1b88cd5.png)
