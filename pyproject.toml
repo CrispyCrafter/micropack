@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "micropack"
+version = "0.1.0"
+description = "Lightweight JSON serialisation and diff-patching tool for bandwitdth constained applications"
+authors = ["Bernard Greyling <bpgreyling@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+umsgpack = {git = "https://github.com/CrispyCrafter/micropython-msgpack.git"}
+jsondiff = {git = "https://github.com/CrispyCrafter/ujsondiff.git"}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
