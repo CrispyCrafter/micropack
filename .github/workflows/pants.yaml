@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: |
         ./pants test ::
-      if: always()act
+      if: always()
