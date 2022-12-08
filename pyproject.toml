@@ -1,15 +1,24 @@
 [tool.poetry]
 name = "micropack"
-version = "0.1.0"
+version = "0.1.1.dev0"
 description = "Lightweight JSON serialisation and diff-patching tool for bandwitdth constained applications"
 authors = ["Bernard Greyling <bpgreyling@gmail.com>"]
 license = "MIT License"
 readme = "README.md"
+homepage = "https://github.com/CrispyCrafter/micropack"
+repository = "https://github.com/CrispyCrafter/micropack"
+keywords = ["iot", "diff", "json", "micropython", "msgpack", "patch", "lora", "OTA", "jsondiff"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: Implementation :: MicroPython",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-umsgpack = {git = "https://github.com/CrispyCrafter/micropython-msgpack.git"}
-jsondiff = {git = "https://github.com/CrispyCrafter/ujsondiff.git"}
+python = "^3.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^6.2.5"
