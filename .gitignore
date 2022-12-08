@@ -132,3 +132,7 @@ dmypy.json
 /.pants.*
 /dist/
 /.pids
+
+
+# Vscode
+.vscode/
