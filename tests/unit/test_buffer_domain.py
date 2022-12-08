@@ -88,7 +88,7 @@ def test_message_buffer_should_raise_exception_when_message_is_empty(buffer):
 )
 def test_message_buffer_should_read_file(buffer, tmp_path, message):
     # Given
-    file_path = tmp_path / "test.txt"
+    file_path = tmp_path / "test.pack"
     buffer.io_handler = FileHandler(file_path)
     packets = buffer.encode(message)
 
